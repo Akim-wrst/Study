@@ -41,12 +41,10 @@ class Student2 {
             l.add(i);
         }
         double counter = 0;
-        for (double i : l) {
-            counter++;
-        }
         double result = 0;
         for (double i : l) {
             result += i;
+            counter ++;
         }
         return result / counter;
     }
