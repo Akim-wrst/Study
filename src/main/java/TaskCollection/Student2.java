@@ -35,7 +35,7 @@ class Student2 {
         }
     }
 
-    static double average(List<Student2> sts) {
+    static double averageAttendance(List<Student2> sts) {
         List<Integer> l = new ArrayList<>();
         for (Student2 st : sts) {
             int i = st.attendance;
@@ -62,6 +62,6 @@ class Student2 {
         sts.add(st4);
         Student2.minAttendance(sts);
         System.out.println("----------------------------------------------");
-        System.out.println(Student2.average(sts));
+        System.out.println(Student2.averageAttendance(sts));
     }
 }
