@@ -51,7 +51,6 @@ class Order {
     }
 
     public static void main(String[] args) {
-        List<Integer> customers = new ArrayList<>();
         Order customer = new Order(23, "Akim", 8998);
         Order customer2 = new Order(565, "Zelensky", 1023);
         Order customer3 = new Order(3434, "Putin", 5453);
