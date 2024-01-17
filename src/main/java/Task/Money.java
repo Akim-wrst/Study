@@ -5,7 +5,7 @@ class Money {
 
     static void wallet(int money) {
         wallet -= money;
-        if (wallet < 1) {
+        if (wallet < 0) {
             System.out.println("Недостаточно средств");
         } else {
             System.out.println(wallet);
@@ -16,6 +16,6 @@ class Money {
         wallet(200);
         wallet(50);
         wallet(200);
-        wallet(100);
+        wallet(101);
     }
 }

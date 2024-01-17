@@ -2,7 +2,7 @@ package TaskException;
 
 import java.io.*;
 
-class Except {
+class FileException {
     public static void main(String[] args) {
         try {
             File file = new File("C:\\Java\\hi.txt");
@@ -11,8 +11,7 @@ class Except {
 
             /*BufferedReader in = new BufferedReader(new FileReader("C:\\Java\\hi.txt"));
             String line = in.readLine();
-            while(line != null)
-            {
+            while (line != null) {
                 System.out.println(line);
                 line = in.readLine();
             }
